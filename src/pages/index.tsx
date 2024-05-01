@@ -104,11 +104,11 @@ export default function Home() {
                     <div className={styles.card}>
                         <h4>Ferramentas</h4>
                         <div>
-                            <Image className={styles.iconLink} src="/git.svg" alt="Github link" width={32}
+                            <Image className={styles.iconLink} src="git.svg" alt="Github link" width={32}
                                    height={32} priority/>
-                            <Image className={styles.iconLink} src="/docker.svg" alt="Github link" width={32}
+                            <Image className={styles.iconLink} src="docker.svg" alt="Github link" width={32}
                                    height={32} priority/>
-                            <Image className={styles.iconLink} src="/figma.svg" alt="Github link" width={32}
+                            <Image className={styles.iconLink} src="figma.svg" alt="Github link" width={32}
                                    height={32} priority/>
                         </div>
                     </div>
