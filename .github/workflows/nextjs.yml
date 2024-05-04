@@ -78,7 +78,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: tar -czvf artifact.tar.gz -C  ./out
 
   # Deployment job
   deploy:
