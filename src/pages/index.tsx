@@ -54,16 +54,6 @@ export default function Home() {
                                     Hospital Unimed Juiz de Fora, com experiência em desenvolvimento Web e mobile, com
                                     aptidão também em UX/UI, buscando uma oportunidade como desenvolver.</p>
                             </div>
-
-                            <div className={styles.githubStats}>
-                                <img
-                                    src="https://github-readme-stats.vercel.app/api?username=wellingtonengps&theme=dracula"
-                                    alt="GitHub Stats"
-                                />
-                                <img
-                                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=wellingtonengps&hide=html&layout=compact&theme=dracula"
-                                    alt="GitHub Stats"/>
-                            </div>
                         </div>
                     </div>
                 </div>
