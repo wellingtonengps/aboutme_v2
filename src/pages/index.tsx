@@ -19,7 +19,7 @@ export default function Home() {
                 <div className={styles.header}>
                     <div className={styles.wrapperHeader}>
                                 <Image
-                                    src="profile.svg"
+                                    src="/profile.svg"
                                     alt="Profile"
                                     width={245}
                                     height={245}
@@ -41,7 +41,7 @@ export default function Home() {
                                     className={styles.iconButtom}
                                     target="_blank"
                                     rel="noopener noreferrer">
-                                    <Image className={styles.iconLink} src="github.svg" alt="Github link" width={32}
+                                    <Image className={styles.iconLink} src="/github.svg" alt="Github link" width={32}
                                            height={32} priority/>
                                 </a>
                                 <a
@@ -49,7 +49,7 @@ export default function Home() {
                                     className={styles.iconButtom}
                                     target="_blank"
                                     rel="noopener noreferrer">
-                                    <Image className={styles.iconLink} src="linkedin.svg" alt="Github link" width={33}
+                                    <Image className={styles.iconLink} src="/linkedin.svg" alt="Github link" width={33}
                                            height={33} priority/>
                                 </a>
                             </div>
@@ -63,13 +63,13 @@ export default function Home() {
                         <div className={styles.card}>
                             <h4>Liguagens de programação</h4>
                             <div>
-                                <Image className={styles.iconLink} src="c.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/c.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="java.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/java.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="javascript.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/javascript.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="kotlin.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/kotlin.svg" alt="Github link" width={32}
                                        height={32} priority/>
                             </div>
                         </div>
@@ -77,13 +77,13 @@ export default function Home() {
                         <div className={styles.card}>
                             <h4>Frameworks</h4>
                             <div>
-                                <Image className={styles.iconLink} src="react.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/react.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="spring.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/spring.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="next.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/next.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="nest.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/nest.svg" alt="Github link" width={32}
                                        height={32} priority/>
                             </div>
                         </div>
@@ -91,11 +91,11 @@ export default function Home() {
                         <div className={styles.card}>
                             <h4>Banco de dados</h4>
                             <div>
-                                <Image className={styles.iconLink} src="mysql.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/mysql.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="postgresql.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/postgresql.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="mongodb.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/mongodb.svg" alt="Github link" width={32}
                                        height={32} priority/>
                             </div>
                         </div>
@@ -103,11 +103,11 @@ export default function Home() {
                         <div className={styles.card}>
                             <h4>Ferramentas</h4>
                             <div>
-                                <Image className={styles.iconLink} src="git.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/git.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="docker.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/docker.svg" alt="Github link" width={32}
                                        height={32} priority/>
-                                <Image className={styles.iconLink} src="figma.svg" alt="Github link" width={32}
+                                <Image className={styles.iconLink} src="/figma.svg" alt="Github link" width={32}
                                        height={32} priority/>
                             </div>
                         </div>
